@@ -1,0 +1,20 @@
+Daft
+----
+
+__Diagnose Aberrant FileType plugins__
+
+TIP: If you like Daft and want to share the W00t!, I'm grateful for
+https://www.gittip.com/bairuidahu/[tips] or
+http://of-vim-and-vigor.blogspot.com/[beverages].
+
++:Punk+
+
+The command:
+
+  :Punk java
+
+will show the additional +filetype+ plugins loaded for Java files.
+
+NOTE: Daft makes no attempt to do this on a clean Vim. The user is
+responsible for ensuring that state. That is, multiple runs will show no
+extra scripts being loaded.

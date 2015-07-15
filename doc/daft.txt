@@ -1,0 +1,35 @@
+*daft.txt*	Diagnosing Aberrant FileType plugins
+
+
+			VIM REFERENCE MANUAL	by Barry Arthur
+
+
+Help on using daft                                                    *daft*
+
+1. Introduction				|daft-intro|
+2. Usage				|daft-usage|
+
+==============================================================================
+ 1. INTRODUCTION                                                *daft-intro*
+
+DAFT is a tool for Diagnosing Aberrant FileType plugins.
+
+
+==============================================================================
+ 2. USAGE                                                       *daft-usage*
+
+:Punk~
+
+The command:
+>
+  :Punk java
+<
+will show the additional |filetype| plugins loaded for Java files.
+
+NOTE: Daft makes no attempt to do this on a clean Vim. The user is
+responsible for ensuring that state. That is, multiple runs will show
+no extra scripts being loaded.
+
+
+Template From: https://github.com/dahu/Area-41/
+ vim:tw=78:ts=8:ft=help:norl:
